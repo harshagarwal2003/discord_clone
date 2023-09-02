@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+.navbar{
+    height:72px;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    font-family: ggSans;
+    background-color: #404EED;
+}
+
+.main-navbar{
+    display:flex;
+    gap:20px;
+    font-weight: 600;
+    font-size:16px;
+}
+
+.main-navbar div:hover{
+    text-decoration: underline;
+}
+
+.last-navbar button{
+    width:124px;
+    font-family: ggSans;
+    font-size:30px;
+    font-weight:400;
+}
+
+.last-navbar button{
+    /* border:none */
+    border-radius:60px;
+    width:124px;
+    font-size: 14px;
+    padding: 7px 16px;
+    font-weight: 500;
+    color:#2c2f33;
+    
+}
+.main-section{
+    position:relative;
+    background-color: #404EED;
+}
+.images{
+    overflow:hidden;
+    height:580px;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    margin:-50px;
+}
+.img2{
+    position: absolute;
+    top:230px;
+    left:75%;
+}
+.img3{
+    position: absolute;
+    top:230px;
+    right:70%;
+}
+
+.main-text{
+    position: absolute;
+    color: white;
+    text-align:center;
+    font-weight:800;
+    font-size:34px;
+    top:30%;
+    left:30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-text h2{
+    font-family: GintoNord;
+    text-transform: uppercase;
+}
+.main-text p{
+    font-family: ggsans;
+    font-size:20px;
+    font-weight:400;
+    text-align:left;
+}
+
+.main-btn{
+    background-color: white;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    align-items: center;
+    padding: 5rem;
+}
+
+.sec1-img{
+    width:50%;
+}
+.sec1-text{
+    width:50%;
+}
+
+.sec1-container{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    margin: auto;
+    gap:24px;
+}
+
+h1{
+    font-family: ggSans;
+    font-size: 50px;
+    font-weight:700;
+}
+
+p{
+    font-family: ggSans;
+    font-size:20px;
+    font-weight:400;
+}
+
+.section2{
+    display:flex;
+    margin:auto;
+    align-items: center;
+    padding: 5rem;
+    background-color: #f6f6f6;
+}
+
+.sec2-img{
+    width:50%;
+}
+.sec2-text{
+    width:50%;
+}
+
+.sec2-container{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    margin: auto;
+    gap:24px;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    align-items: center;
+    padding: 5rem;
+}
+
+.sec3-img{
+    width:50%;
+}
+.sec3-text{
+    width:50%;
+}
+
+.sec3-container{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    margin: auto;
+    gap:24px;
+}
+.section4{
+    background-color: #f6f6f6;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding:5rem;
+}
+.content h1{
+    font-weight:800;
+    font-family:GintoNord;
+    font-size:40px;
+    text-align:left;
+}
+.content p{
+    font-size:20px;
+    margin-top: 24px;
+    text-align:center;
+}
+
+.content-container{
+    font-size:40px;
+    font-family:ggSans;
+    font-weight:700;
+    position:relative;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+}
+
+.content-heading{
+    padding-top:30px;
+}
+
+.content-btn{
+    display: flex;
+    background-color: #404EED;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-size: 20px;
+    font-weight:500;
+    font-family: ggSans;
+    padding-right:2rem;
+    padding-left: 2rem;
+    border-radius:50px; 
+}
+.content-btn p{
+    margin-bottom:18px;
+}
+.content-btn i{
+    margin-right:10px;
+}
+
+footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: white;
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-nav {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr 1fr 1fr 1fr;
+    gap: 0 20px;
+    width: 100%;
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid #7289da;
+    max-width: 1260px;
+    width: 80%;
+}
+
+footer .footer-nav .socials h4 {
+    color: #7289da;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+footer .footer-nav .socials img {
+    width: 24px;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+footer .footer-nav .column a {
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.74);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+footer .footer-nav h5 {
+    color: #7289da;
+    font-size: 16px;
+}
+
+.footer-bar {
+    padding: 1.25rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1260px;
+}
+
+.footer-bar>img {
+    width: 124px;
+    height: 40px;
+}
+
+.footer-bar a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    background-color: #7289da;
+    font-weight: 500;
+}
+
+#country {
+    background-color: #23272a;
+    color: #fff;
+    border: none;
+}
+
+.cloud {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation: cloud 48s linear forwards;
+}
+
+@keyframes cloud {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+.footer-nav-mobile {
+    display: none;
+}
+
+
+/* ---------------------------------------- Responsive Part --------------------------------------*/
+
+@media screen and (max-width:768px) {
+    
+  
+    footer {
+        display: block;
+        padding: 0 24px;
+    }
+    footer .footer-nav {
+        display: none;
+    }
+    .footer-nav-mobile {
+        display: block;
+    }
+    .footer-nav-mobile .socials {
+        padding-top: 30px;
+    }
+    .footer-nav-mobile .socials h4 {
+        font-size: 24px;
+        padding-bottom: 18px;
+        color: #7289da;
+    }
+    .footer-nav-mobile .socials img {
+        width: 24px;
+        padding-right: 20px;
+    }
+    .footer-nav-mobile table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-nav-mobile table tbody .heading {
+        color: #7289da;
+        margin-top: 20px;
+    }
+    table tbody tr td {
+        padding-right: 30px;
+    }
+    table tbody tr td a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+    }
+    .footer-bar {
+        border-top: 1px solid #7289da;
+    }
+} 
+
+@font-face {
+    font-family: Whitney;
+    font-weight: 300;
+    src: url(fonts/Whitney/Whitney-300.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Whitney;
+    font-weight: 400;
+    src: url(fonts/Whitney/Whitney-400.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Whitney;
+    font-weight: 500;
+    src: url(fonts/Whitney/Whitney-500.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Whitney;
+    font-weight: 600;
+    src: url(fonts/Whitney/Whitney-600.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Whitney;
+    font-weight: 700;
+    src: url(fonts/Whitney/Whitney-700.woff) format("woff");
+  }
+  
+  /***************/
+  /*    Ginto    */
+  /***************/
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 300;
+    src: url(fonts/Ginto/Ginto-300.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 400;
+    src: url(fonts/Ginto/Ginto-400.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 500;
+    src: url(fonts/Ginto/Ginto-500.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    src: url(fonts/Ginto/Ginto-600.woff) format("woff");
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 700;
+    src: url(fonts/Ginto/Ginto-700.woff) format("woff");
+  }
+  
+  /****************/
+  /* Ginto-Italic */
+  /****************/
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 300;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-300-italic.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 400;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-400-italic.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 500;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-500-italic.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 600;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-600-italic.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: Ginto;
+    font-weight: 700;
+    font-style: italic;
+    src: url(fonts/Ginto/Ginto-700-italic.woff) format("woff");
+  }
+  
+  /**************/
+  /* Ginto-Nord */
+  /**************/
+  
+  @font-face {
+    font-family: GintoNord;
+    font-weight: 500;
+    src: url(fonts/Ginto-Nord/Ginto-Nord-500.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-500.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: GintoNord;
+    font-weight: 600;
+    src: url(fonts/Ginto-Nord/Ginto-Nord-600.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-600.woff) format("woff");
+  }
+  
+  @font-face {
+    font-family: GintoNord;
+    font-weight: 700;
+    src: url(fonts/Ginto-Nord/Ginto-Nord-700.woff2) format("woff2"),
+      url(fonts/Ginto-Nord/Ginto-Nord-700.woff) format("woff");
+  }
+  
+  /***************/
+  /*   gg sans   */
+  /***************/
+  @font-face {
+    font-family: "ggSans";
+    font-weight: 400;
+    src: url(fonts/gg-sans/ggsans-Normal.ttf);
+  }
+  @font-face {
+    font-family: "ggSans";
+    font-weight: 500;
+    src: url(fonts/gg-sans/ggsans-Medium.ttf);
+  }
+  @font-face {
+    font-family: "ggSans";
+    font-weight: 600;
+    src: url(fonts/gg-sans/ggsans-Semibold.ttf);
+  }
+  @font-face {
+    font-family: "ggSans";
+    font-weight: 700;
+    src: url(fonts/gg-sans/ggsans-Bold.ttf);
+  }
+  
